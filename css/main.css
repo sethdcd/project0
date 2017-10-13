@@ -1,0 +1,29 @@
+/* -GENERAL STRUCTURE 
+******************************************************/
+#main {
+	height: 980px;
+}
+
+#about,
+#portfolio,
+#experience,
+#photography,
+#testimonial,
+#about {
+	height: 720px;
+	padding: 5% 0;
+}
+
+.gray {
+	background: gray;
+}
+
+/* -SECTION ONE 
+******************************************************/
+#welcome-msg {
+	padding-top: 8%;
+}
+
+#main {
+	background-image: url('../img/photo_0.jpeg');
+}
