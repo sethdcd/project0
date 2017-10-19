@@ -1,7 +1,11 @@
 /* -GENERAL STRUCTURE 
 ******************************************************/
 #main {
-	height: 980px;
+	height: 800px;
+}
+
+#navigation nav li {
+	list-style: none;
 }
 
 #about,
@@ -10,7 +14,7 @@
 #photography,
 #testimonial,
 #about {
-	height: 720px;
+	height: 640px;
 	padding: 5% 0;
 }
 
@@ -26,4 +30,42 @@
 
 #main {
 	background-image: url('../img/photo_0.jpeg');
+}
+
+
+/* -SECTION TWO 
+******************************************************/
+#about .row{
+	margin-top: 4%;
+}
+
+.about-img img {
+	width: 70%;
+	margin-left: 20%;
+	border-radius: 200px;
+}
+
+
+/* -SECTION THREE 
+******************************************************/
+
+
+
+/* -SECTION FOUR 
+******************************************************/
+
+
+
+
+/* -FOOTER
+******************************************************/
+footer {
+	height: 320px;
+	background: #333;
+	color: #fff;
+}
+
+.footer {
+	margin-left: 5%;
+	padding-top: 20px;
 }
